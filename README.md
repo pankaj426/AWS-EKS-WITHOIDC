@@ -19,7 +19,9 @@ After completion of job , You will get output with config file content and Kubec
 
 Save the config to ~/.kube/config file and update the configmap using below command.
 
-kubectl edit configmap aws-auth -n kube-system
+          kubectl edit configmap aws-auth -n kube-system
+
+
 Under the map user add the content that you have got from output for mapUser spec given by terraform. .
 
 
