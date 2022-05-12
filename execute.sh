@@ -1,14 +1,24 @@
 set -ex
 
-sed -i '' -e s/ACCOUNTIDHERE/$2/g variables.tf
+#sed -i '' -e s/ACCOUNTIDHERE/$2/g variables.tf
 
-sed -i '' -e s/REGIONHERE/$4/g variables.tf
+#sed -i '' -e s/REGIONHERE/$4/g variables.tf
 
-sed -i '' -e s/NAME_HERE/$6/g variables.tf
+#sed -i '' -e s/NAME_HERE/$6/g variables.tf
 
-sed -i '' -e s/ADDUSER1/$8/g outputs.tf
+#sed -i '' -e s/ADDUSER1/$8/g outputs.tf
 
-sed -i '' -e s/ADDUSER2/$10/g outputs.tf
+#sed -i '' -e s/ADDUSER2/$10/g outputs.tf
+
+sed -i s/ACCOUNTIDHERE/$2/g variables.tf
+
+sed -i s/REGIONHERE/$4/g variables.tf
+
+sed -i s/NAME_HERE/$6/g variables.tf
+
+sed -i s/ADDUSER1/$8/g outputs.tf
+
+sed -i s/ADDUSER2/$10/g outputs.tf
 
 terraform init
 
