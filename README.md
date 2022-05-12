@@ -17,12 +17,13 @@ Run terraform init ,terraform plan , terraform apply.
 
 After completion of job , You will get output with config file content and Kubeconfig.
 
-Save the config to ~/.kube/config file and update the configmap using below command.
+Save the config to ~/.kube/config file 
+
+Copy the content of mapUsers generated Update the configmap using below command.Replace until meta data content.
 
           kubectl edit configmap aws-auth -n kube-system
 
 
-Under the map user add the content that you have got from output for mapUser spec given by terraform. .
 
 
 You need to replace XXXXXXX values with account id.
