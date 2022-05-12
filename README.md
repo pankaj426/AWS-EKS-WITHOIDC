@@ -65,4 +65,5 @@ ingress-2048   <none>   *       k8s-game2048-ingress2-4347728cc5-583095857.us-ea
  
  copy the address collumn and paste it in browser, you will be able to see application running.
  
-
+If Aws-autheticator not found.
+         https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
