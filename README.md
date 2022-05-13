@@ -5,7 +5,7 @@ Download this repositry
 run following shell script:-
 
 
-          cd EKS ;sh execute.sh --accountid <YOURACCOUNTID> --region <AWSREGION> --name <CLUSTERNAME> --ADDUSER1 <user1> --ADDUSER2 <user2>
+          cd EKS ;chmod +x *.sh;sh execute.sh --accountid <YOURACCOUNTID> --region <AWSREGION> --name <CLUSTERNAME> --ADDUSER1 <user1> --ADDUSER2 <user2>
  
 **Method 2
 **
